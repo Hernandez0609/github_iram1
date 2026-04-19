@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url("https://elperiodicodeportivo.com.co/wp-content/uploads/2025/09/Mundial-2026-1024x576-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg,  #fcfafa);
+    padding: 20px;
+}
+
+.header h1 {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+}
+
+.logo {
+    width: 80px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+/* CONTENEDOR */
+.container {
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+/* MENÚ */
+nav {
+    width: 25%;
+    background: #0a0a0a;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background: linear-gradient(90deg, #00e5ff, #40ff6d);
+    color: black;
+    transform: scale(1.1);
+}
+
+/* CONTENIDO */
+main {
+    width: 75%;
+    padding: 25px;
+    background: #f5f5f5;
+    overflow-y: auto;
+    border-top-left-radius: 25px;
+}
+
+h2 {
+    color: #000000;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* IMÁGENES */
+.img-pequena {
+    width: 50%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+img {
+    width: 400px;
+}
+
